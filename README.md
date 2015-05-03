@@ -203,3 +203,22 @@ Batch executes all animators at the same time
 ZBatch* leftArmSequence = [ZBatch executeAnimators:[ZRotate rotateBy:-30 During:2], [ZTrigger triggerAnimator:[ZRotate rotateBy:30 During:2] After:2], nil];
 [girlLeftArm addAnimator:leftArmSequence];
 ```
+#### ZSequencer
+Similar to ZBatch, but runs animations in turn.
+```objective-c
+//animator2 doesn't start running until animator1 finishes
+[ZSequencer executeInSequence:animator1, animator2, nil;]
+```
+#### ZTrigger
+This triggers the ZShake animator after 2 secs 
+```objective-c
+ZTrigger* trigger = [ZTrigger triggerAnimator:[ZShake shakeWithinDistance:30 During:1] After:2];
+```
+#### ZDestructor
+A specialized animator that kills the node, can be used with trigger(timed death) or other schedulers.
+```objective-c
+//from my app
+[red addAnimator:[TTGTrigger triggerAnimator:[TTGDestructor killSelf] After:COUNTDOWN_INTERVAL]];
+```
+#### ZPlaySound
+Sound playback animator that can be scheduled.
