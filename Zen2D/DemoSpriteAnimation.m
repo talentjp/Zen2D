@@ -7,21 +7,21 @@
 //
 
 #import "DemoSpriteAnimation.h"
-#import "TTGSpriteAnimation.h"
-#import "TTGDeviceManager.h"
-#import "TTGSceneManager.h"
+#import "ZSpriteAnimation.h"
+#import "ZDeviceManager.h"
+#import "ZSceneManager.h"
 #import "ReturnSprite.h"
 
 @implementation DemoSpriteAnimation
 
 - (id)init
 {
-    float width = [[TTGDeviceManager sharedManager] getScreenWidth];
-    float height = [[TTGDeviceManager sharedManager] getScreenHeight];;
+    float width = [[ZDeviceManager sharedManager] getScreenWidth];
+    float height = [[ZDeviceManager sharedManager] getScreenHeight];;
     if((self = [super initWithWidth:width Height:height]))
     {
-        [[TTGTextureManager sharedManager] loadJSONSpriteSheet:@"megaman3d.json"];
-        TTGSpriteAnimation* megaman = [[TTGSpriteAnimation alloc] init];
+        [[ZTextureManager sharedManager] loadJSONSpriteSheet:@"megaman3d.json"];
+        ZSpriteAnimation* megaman = [[ZSpriteAnimation alloc] init];
         
         NSMutableArray* arrayMegaman = [NSMutableArray array];
         for(int i = 0; i <= 47;i++)

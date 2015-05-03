@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "TTGAppDelegate.h"
+#import "ZAppDelegate.h"
 
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([TTGAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([ZAppDelegate class]));
     }
 }

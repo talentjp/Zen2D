@@ -6,12 +6,12 @@
 //  Copyright (c) 2013 Roger Cheng. All rights reserved.
 //
 
-#import "TTGText.h"
-@class TTGTouchComponent;
+#import "ZText.h"
+@class ZTouchComponent;
 
-@interface TouchableText : TTGText
+@interface TouchableText : ZText
 {
-    TTGTouchComponent* _touchComp;
+    ZTouchComponent* _touchComp;
 }
 
 @end

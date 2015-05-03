@@ -7,8 +7,8 @@
 //
 
 #import "MyJoystick.h"
-#import "TTGSprite.h"
-#import "TTGScene.h"
+#import "ZSprite.h"
+#import "ZScene.h"
 
 //Square
 bool OPiece[4][4] = {
@@ -166,7 +166,7 @@ bool TPiece4[4][4] = {
         _currentRotation = 0;
         _currentX = 4;
         
-        TTGNode* pieceNode = [[TTGNode alloc] init];
+        ZNode* pieceNode = [[ZNode alloc] init];
         pieceNode.identifier = @"TetrisPiece";
         [self attachNode:pieceNode];
         pieceNode.scale = CGSizeMake(1.0, 1.0);
@@ -179,49 +179,49 @@ bool TPiece4[4][4] = {
         {
             for(int col = 0; col < 10; col++)
             {
-                TTGSprite* tetrisBlock = [[TTGSprite alloc] initWithFile:@"IBlock.png"];
+                ZSprite* tetrisBlock = [[ZSprite alloc] initWithFile:@"IBlock.png"];
                 [self attachNode:tetrisBlock];
                 tetrisBlock.spritePosition = CGPointMake(col * 16 + 8 + 160, row * 16 + 8);
                 tetrisBlock.spriteDepth = -1;
                 tetrisBlock.hide = YES;
                 tetrisArrayIBlockPtr[row][col] = tetrisBlock;
                 
-                tetrisBlock = [[TTGSprite alloc] initWithFile:@"JBlock.png"];
+                tetrisBlock = [[ZSprite alloc] initWithFile:@"JBlock.png"];
                 [self attachNode:tetrisBlock];
                 tetrisBlock.spritePosition = CGPointMake(col * 16 + 8 + 160, row * 16 + 8);
                 tetrisBlock.spriteDepth = -1;
                 tetrisBlock.hide = YES;
                 tetrisArrayJBlockPtr[row][col] = tetrisBlock;
                 
-                tetrisBlock = [[TTGSprite alloc] initWithFile:@"LBlock.png"];
+                tetrisBlock = [[ZSprite alloc] initWithFile:@"LBlock.png"];
                 [self attachNode:tetrisBlock];
                 tetrisBlock.spritePosition = CGPointMake(col * 16 + 8 + 160, row * 16 + 8);
                 tetrisBlock.spriteDepth = -1;
                 tetrisBlock.hide = YES;
                 tetrisArrayLBlockPtr[row][col] = tetrisBlock;
                 
-                tetrisBlock = [[TTGSprite alloc] initWithFile:@"OBlock.png"];
+                tetrisBlock = [[ZSprite alloc] initWithFile:@"OBlock.png"];
                 [self attachNode:tetrisBlock];
                 tetrisBlock.spritePosition = CGPointMake(col * 16 + 8 + 160, row * 16 + 8);
                 tetrisBlock.spriteDepth = -1;
                 tetrisBlock.hide = YES;
                 tetrisArrayOBlockPtr[row][col] = tetrisBlock;
                 
-                tetrisBlock = [[TTGSprite alloc] initWithFile:@"SBlock.png"];
+                tetrisBlock = [[ZSprite alloc] initWithFile:@"SBlock.png"];
                 [self attachNode:tetrisBlock];
                 tetrisBlock.spritePosition = CGPointMake(col * 16 + 8 + 160, row * 16 + 8);
                 tetrisBlock.spriteDepth = -1;
                 tetrisBlock.hide = YES;
                 tetrisArraySBlockPtr[row][col] = tetrisBlock;
                 
-                tetrisBlock = [[TTGSprite alloc] initWithFile:@"TBlock.png"];
+                tetrisBlock = [[ZSprite alloc] initWithFile:@"TBlock.png"];
                 [self attachNode:tetrisBlock];
                 tetrisBlock.spritePosition = CGPointMake(col * 16 + 8 + 160, row * 16 + 8);
                 tetrisBlock.spriteDepth = -1;
                 tetrisBlock.hide = YES;
                 tetrisArrayTBlockPtr[row][col] = tetrisBlock;
                 
-                tetrisBlock = [[TTGSprite alloc] initWithFile:@"ZBlock.png"];
+                tetrisBlock = [[ZSprite alloc] initWithFile:@"ZBlock.png"];
                 [self attachNode:tetrisBlock];
                 tetrisBlock.spritePosition = CGPointMake(col * 16 + 8 + 160, row * 16 + 8);
                 tetrisBlock.spriteDepth = -1;
@@ -265,7 +265,7 @@ bool TPiece4[4][4] = {
 
 - (void)updateCurrentPieceLocation
 {
-    TTGNode* theNode = [self findNodeByIdentifier:@"TetrisPiece"];
+    ZNode* theNode = [self findNodeByIdentifier:@"TetrisPiece"];
     [theNode moveToX:[self getCurrentXPosition] Y:theNode.spritePosition.y];
 }
 
@@ -276,7 +276,7 @@ bool TPiece4[4][4] = {
     [[self findNodeByIdentifier:@"Block3"] destroy];
     [[self findNodeByIdentifier:@"Block4"] destroy];
     
-    TTGNode* theNode = [self findNodeByIdentifier:@"TetrisPiece"];
+    ZNode* theNode = [self findNodeByIdentifier:@"TetrisPiece"];
     
     NSString* blockString = nil;
     
@@ -309,10 +309,10 @@ bool TPiece4[4][4] = {
         blockString = @"ZBlock.png";
     }
     
-    TTGSprite* pieceBlock1 = [[TTGSprite alloc] initWithFile:blockString];
-    TTGSprite* pieceBlock2 = [[TTGSprite alloc] initWithFile:blockString];
-    TTGSprite* pieceBlock3 = [[TTGSprite alloc] initWithFile:blockString];
-    TTGSprite* pieceBlock4 = [[TTGSprite alloc] initWithFile:blockString];
+    ZSprite* pieceBlock1 = [[ZSprite alloc] initWithFile:blockString];
+    ZSprite* pieceBlock2 = [[ZSprite alloc] initWithFile:blockString];
+    ZSprite* pieceBlock3 = [[ZSprite alloc] initWithFile:blockString];
+    ZSprite* pieceBlock4 = [[ZSprite alloc] initWithFile:blockString];
     
     pieceBlock1.identifier = @"Block1";
     pieceBlock2.identifier = @"Block2";
@@ -332,7 +332,7 @@ bool TPiece4[4][4] = {
             if([self queryBlockArrayForPiece:_currentPiece inRotation:_currentRotation Row:row Col:col])
             {
                 blockCount++;
-                TTGNode* block = [self findNodeByIdentifier:[NSString stringWithFormat:@"Block%d", blockCount]];
+                ZNode* block = [self findNodeByIdentifier:[NSString stringWithFormat:@"Block%d", blockCount]];
                 block.spritePosition = CGPointMake((col-2) * 16, (row-2) * 16);
             }
         }
@@ -426,7 +426,7 @@ bool TPiece4[4][4] = {
 
 - (int)getLowerY
 {
-    TTGNode* theNode = [self findNodeByIdentifier:@"TetrisPiece"];
+    ZNode* theNode = [self findNodeByIdentifier:@"TetrisPiece"];
     float yPosition = theNode.spritePosition.y;
     int yIdx =  floor((yPosition - 8.0) / 16.0);
     return yIdx;
@@ -434,7 +434,7 @@ bool TPiece4[4][4] = {
 
 - (int)getHigherY
 {
-    TTGNode* theNode = [self findNodeByIdentifier:@"TetrisPiece"];
+    ZNode* theNode = [self findNodeByIdentifier:@"TetrisPiece"];
     float yPosition = theNode.spritePosition.y;
     int yIdx = floor((yPosition + 8.0) / 16.0);
     if(yIdx * 16 == yPosition + 8.0)
@@ -448,7 +448,7 @@ bool TPiece4[4][4] = {
 - (void)gameUpdate
 {
     [super gameUpdate];
-    TTGNode* theNode = [self findNodeByIdentifier:@"TetrisPiece"];
+    ZNode* theNode = [self findNodeByIdentifier:@"TetrisPiece"];
     [theNode translateByX:0 Y: -self.timeSinceLastFrame * _currentDropSpeed];
     if(theNode.spritePosition.y < 0)
     {
@@ -744,7 +744,7 @@ bool TPiece4[4][4] = {
         }
     }
     
-    TTGNode* theNode = [self findNodeByIdentifier:@"TetrisPiece"];
+    ZNode* theNode = [self findNodeByIdentifier:@"TetrisPiece"];
     _currentX = 4;
     [theNode moveToX:[self getCurrentXPosition] Y:320];
 }

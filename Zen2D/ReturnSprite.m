@@ -7,7 +7,7 @@
 //
 
 #import "ReturnSprite.h"
-#import "TTGSceneManager.h"
+#import "ZSceneManager.h"
 #import "SceneSelectScene.h"
 
 @implementation ReturnSprite
@@ -17,7 +17,7 @@
     if((self = [super initWithFile:@"Return"]))
     {
         //Component based design
-        _touchComp = [[TTGTouchComponent alloc] init];
+        _touchComp = [[ZTouchComponent alloc] init];
         [self addComponent: _touchComp];
         self.scale = CGSizeMake(0.2, 0.2);
     }
@@ -46,7 +46,7 @@
         if([self isLocationWithinSprite:[_touchComp getLatestLocationAtIndex:0]])
         {
             self.scale = CGSizeMake(0.2, 0.2);
-            [[TTGSceneManager sharedManager] switchToScene:[[SceneSelectScene alloc] init]];
+            [[ZSceneManager sharedManager] switchToScene:[[SceneSelectScene alloc] init]];
         }
         else
         {
@@ -55,7 +55,7 @@
     }
 }
 
-- (void)setParentScene:(TTGScene *)parentScene
+- (void)setParentScene:(ZScene *)parentScene
 {
     [super setParentScene:parentScene];
     [self moveToX:self.parentScene.screenWidth - 50 Y:50];

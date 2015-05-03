@@ -6,12 +6,12 @@
 //  Copyright (c) 2013 Roger Cheng. All rights reserved.
 //
 
-#import "TTGSprite.h"
-#import "TTGTouchComponent.h"
+#import "ZSprite.h"
+#import "ZTouchComponent.h"
 
-@interface ReturnSprite : TTGSprite
+@interface ReturnSprite : ZSprite
 {
-    TTGTouchComponent* _touchComp;
+    ZTouchComponent* _touchComp;
 }
 
 @end

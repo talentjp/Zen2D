@@ -7,7 +7,7 @@
 //
 
 #import "ArrowSprite.h"
-#import "TTGTouchComponent.h"
+#import "ZTouchComponent.h"
 #import "SceneSelectScene.h"
 
 @implementation ArrowSprite
@@ -17,7 +17,7 @@
     if((self = [super initWithFile:@"RightArrow.png"]))
     {
         //Component based design
-        _touchComp = [[TTGTouchComponent alloc] init];
+        _touchComp = [[ZTouchComponent alloc] init];
         [self addComponent: _touchComp];
         self.scale = CGSizeMake(0.2, 0.2);
     }

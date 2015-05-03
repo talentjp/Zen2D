@@ -8,8 +8,8 @@
 
 //Compisite demo scene, render sequence 0(bottom layer)->1->2->...->N(top layer).TODO:A fixed border image(layer 1) and something to zoom in/out on(layer 0)
 
-#import "TTGCompositeScene.h"
+#import "ZCompositeScene.h"
 
-@interface DemoCompositeScene : TTGCompositeScene
+@interface DemoCompositeScene : ZCompositeScene
 
 @end

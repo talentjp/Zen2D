@@ -7,10 +7,10 @@
 //
 
 #import "TouchableText.h"
-#import "TTGTouchComponent.h"
-#import "TTGScene.h"
-#import "TTGVirtualStick.h"
-#import "TTGMoveTo.h"
+#import "ZTouchComponent.h"
+#import "ZScene.h"
+#import "ZVirtualStick.h"
+#import "ZMoveTo.h"
 #import "SceneSelectScene.h"
 
 @implementation TouchableText
@@ -19,7 +19,7 @@
 {
     if((self = [super initWithString:text]))
     {
-        _touchComp = [[TTGTouchComponent alloc] init];
+        _touchComp = [[ZTouchComponent alloc] init];
         [self addComponent: _touchComp];
     }
     return self;

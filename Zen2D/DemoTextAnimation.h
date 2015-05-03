@@ -8,8 +8,8 @@
 
 //Text animation demo. Animations: fade-in, rotate, scale, shake, fade-out
 
-#import "TTGScene.h"
+#import "ZScene.h"
 
-@interface DemoTextAnimation : TTGScene
+@interface DemoTextAnimation : ZScene
 
 @end

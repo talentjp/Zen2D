@@ -6,10 +6,10 @@
 //  Copyright (c) 2013 Roger Cheng. All rights reserved.
 //
 
-#import "TTGNode.h"
-@class TTGTouchComponent;
-@interface PhysicsTouchNode : TTGNode
+#import "ZNode.h"
+@class ZTouchComponent;
+@interface PhysicsTouchNode : ZNode
 {
-    TTGTouchComponent* _touchComp;
+    ZTouchComponent* _touchComp;
 }
 @end

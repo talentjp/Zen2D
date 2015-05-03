@@ -7,14 +7,14 @@
 //
 
 #import "DemoCompositeScene.h"
-#import "TTGDeviceManager.h"
-#import "TTGCamera.h"
-#import "TTGScale.h"
-#import "TTGShake.h"
-#import "TTGRotate.h"
-#import "TTGTrigger.h"
-#import "TTGSceneManager.h"
-#import "TTGSprite.h"
+#import "ZDeviceManager.h"
+#import "ZCamera.h"
+#import "ZScale.h"
+#import "ZShake.h"
+#import "ZRotate.h"
+#import "ZTrigger.h"
+#import "ZSceneManager.h"
+#import "ZSprite.h"
 #import "ReturnSprite.h"
 
 @implementation DemoCompositeScene
@@ -23,32 +23,32 @@
 {
     if((self = [super init]))
     {
-        float width = [[TTGDeviceManager sharedManager] getScreenWidth];
-        float height = [[TTGDeviceManager sharedManager] getScreenHeight];
-        TTGScene* testScene = [[TTGScene alloc] initWithWidth:width Height:height];
+        float width = [[ZDeviceManager sharedManager] getScreenWidth];
+        float height = [[ZDeviceManager sharedManager] getScreenHeight];
+        ZScene* testScene = [[ZScene alloc] initWithWidth:width Height:height];
         [self addScene:testScene];
         testScene.identifier = @"TestScene1";
-        TTGCamera* newCamera = [[TTGCamera alloc] init];
+        ZCamera* newCamera = [[ZCamera alloc] init];
         [newCamera translateByX:0 Y:0];
         newCamera.scale = CGSizeMake(0.5, 0.5);
         newCamera.rotation = 0;
-        [newCamera addAnimator:[TTGRotate rotateBy:360 During:5]];
-        [newCamera addAnimator:[TTGScale scaleToWidth:2.5 Height:2.5 During:10]];
+        [newCamera addAnimator:[ZRotate rotateBy:360 During:5]];
+        [newCamera addAnimator:[ZScale scaleToWidth:2.5 Height:2.5 During:10]];
         testScene.activeCamera = newCamera;
-        TTGScene* testScene2 = [[TTGScene alloc] initWithWidth:width Height:height];
+        ZScene* testScene2 = [[ZScene alloc] initWithWidth:width Height:height];
         [self addScene:testScene2];
         testScene2.identifier = @"TestScene2";
-        TTGCamera* newCamera2 = [[TTGCamera alloc] init];
-        TTGTrigger* trigger = [TTGTrigger triggerAnimator:[TTGShake shakeWithinDistance:30 During:1] After:2];
+        ZCamera* newCamera2 = [[ZCamera alloc] init];
+        ZTrigger* trigger = [ZTrigger triggerAnimator:[ZShake shakeWithinDistance:30 During:1] After:2];
         [newCamera2 addAnimator:trigger];
         testScene2.activeCamera = newCamera2;
         //Basic rendering test
-        TTGSprite* space = [[TTGSprite alloc] initWithFile:@"space.jpg"];
-        TTGNode* mainNode = [[TTGNode alloc] init];
+        ZSprite* space = [[ZSprite alloc] initWithFile:@"space.jpg"];
+        ZNode* mainNode = [[ZNode alloc] init];
         [mainNode attachNode:space];
         [testScene attachNode:mainNode];
         [mainNode moveToX:width/2.0 Y:height/2.0];
-        TTGSprite* cockpit = [[TTGSprite alloc] initWithFile:@"cockpit.png"];
+        ZSprite* cockpit = [[ZSprite alloc] initWithFile:@"cockpit.png"];
         cockpit.scale = CGSizeMake(1.5, 1);
         [cockpit moveToX:width/2.0 Y:height/2.0];
         [testScene2 attachNode:cockpit];

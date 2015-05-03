@@ -7,8 +7,8 @@
 //
 
 #import "PhysicsTouchNode.h"
-#import "TTGTouchComponent.h"
-#import "TTGScene.h"
+#import "ZTouchComponent.h"
+#import "ZScene.h"
 
 @implementation PhysicsTouchNode
 
@@ -17,7 +17,7 @@
     if((self = [super init]))
     {
         //Component based design
-        _touchComp = [[TTGTouchComponent alloc] init];
+        _touchComp = [[ZTouchComponent alloc] init];
         [self addComponent: _touchComp];
         _touchComp.isAbsorbTouch = NO;
     }
@@ -28,8 +28,8 @@
 {
     if([_touchComp getLatestTouchEventAtIndex:0] == TOUCH_EVENT_DOWN)
     {
-        TTGNode* nodeToCopy = [self.parentScene findNodeByIdentifier:@"ROCK"];
-        TTGNode* newNode = [nodeToCopy copy];
+        ZNode* nodeToCopy = [self.parentScene findNodeByIdentifier:@"ROCK"];
+        ZNode* newNode = [nodeToCopy copy];
         CGPoint newLocation = [_touchComp getLatestLocationAtIndex:0];
         [newNode moveToX:newLocation.x Y:newLocation.y];
         [newNode resetComponents];

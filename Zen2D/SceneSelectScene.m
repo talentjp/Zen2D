@@ -7,8 +7,8 @@
 //
 
 #import "SceneSelectScene.h"
-#import "TTGDeviceManager.h"
-#import "TTGSceneManager.h"
+#import "ZDeviceManager.h"
+#import "ZSceneManager.h"
 #import "ArrowSprite.h"
 #import "DemoCompositeScene.h"
 #import "DemoTextAnimation.h"
@@ -23,8 +23,8 @@
 
 - (id)init
 {
-    float width = [[TTGDeviceManager sharedManager] getScreenWidth];
-    float height = [[TTGDeviceManager sharedManager] getScreenHeight];;
+    float width = [[ZDeviceManager sharedManager] getScreenWidth];
+    float height = [[ZDeviceManager sharedManager] getScreenHeight];;
     
     if((self = [super initWithWidth:width Height:height]))
     {
@@ -66,7 +66,7 @@
 
 - (void)enterScene
 {
-    [[TTGSceneManager sharedManager] switchToScene:[_arrayScenes objectAtIndex:_currentSceneIndex]];
+    [[ZSceneManager sharedManager] switchToScene:[_arrayScenes objectAtIndex:_currentSceneIndex]];
 }
 
 @end

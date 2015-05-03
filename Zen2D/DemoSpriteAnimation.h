@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Roger Cheng. All rights reserved.
 //
 
-#import "TTGScene.h"
+#import "ZScene.h"
 
-@interface DemoSpriteAnimation : TTGScene
+@interface DemoSpriteAnimation : ZScene
 
 @end

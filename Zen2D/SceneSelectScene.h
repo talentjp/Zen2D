@@ -6,11 +6,11 @@
 //  Copyright (c) 2013 Roger Cheng. All rights reserved.
 //
 
-#import "TTGScene.h"
+#import "ZScene.h"
 
 @class TouchableText;
 
-@interface SceneSelectScene : TTGScene
+@interface SceneSelectScene : ZScene
 {
     NSArray* _titleScenes;
     NSArray* _arrayScenes;

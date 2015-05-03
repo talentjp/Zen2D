@@ -18,20 +18,20 @@
 		CB22FC58181A12D40078F4BE /* LeftLeg.png in Resources */ = {isa = PBXBuildFile; fileRef = CB22FC53181A12D40078F4BE /* LeftLeg.png */; };
 		CB22FC59181A12D40078F4BE /* RightArm.png in Resources */ = {isa = PBXBuildFile; fileRef = CB22FC54181A12D40078F4BE /* RightArm.png */; };
 		CB22FC5A181A12D40078F4BE /* RightLeg.png in Resources */ = {isa = PBXBuildFile; fileRef = CB22FC55181A12D40078F4BE /* RightLeg.png */; };
-		CB291BC317B0C41C0042C69A /* TTGRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = CB291BC217B0C41C0042C69A /* TTGRectangle.m */; };
+		CB291BC317B0C41C0042C69A /* ZRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = CB291BC217B0C41C0042C69A /* ZRectangle.m */; };
 		CB332EAC1811082E00F8B015 /* Return.png in Resources */ = {isa = PBXBuildFile; fileRef = CB332EAB1811082E00F8B015 /* Return.png */; };
 		CB332EAF1811084C00F8B015 /* ReturnSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = CB332EAE1811084C00F8B015 /* ReturnSprite.m */; };
-		CB4D7BB417F009730087A300 /* TTGCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4D7BB317F009730087A300 /* TTGCamera.m */; };
-		CB5003191973A45D00DCB05A /* TTGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5003181973A45D00DCB05A /* TTGButton.m */; };
+		CB4D7BB417F009730087A300 /* ZCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4D7BB317F009730087A300 /* ZCamera.m */; };
+		CB5003191973A45D00DCB05A /* ZButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5003181973A45D00DCB05A /* ZButton.m */; };
 		CB7278F418124492003C5320 /* rock.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB7278F318124492003C5320 /* rock.plist */; };
-		CB7818111984B9C80039A230 /* TTGNavigationScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB7818101984B9C80039A230 /* TTGNavigationScene.mm */; };
-		CB81F5B41A035A8B00AF2735 /* TTGSequencer.m in Sources */ = {isa = PBXBuildFile; fileRef = CB81F5B31A035A8B00AF2735 /* TTGSequencer.m */; };
-		CB8B403C178A166000F575F9 /* TTGBatch.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B403B178A166000F575F9 /* TTGBatch.m */; };
-		CB8B403F178A208E00F575F9 /* TTGTrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B403E178A208E00F575F9 /* TTGTrigger.m */; };
-		CB97CE061772E0DD003FC7D3 /* TTGScale.m in Sources */ = {isa = PBXBuildFile; fileRef = CB97CE051772E0DD003FC7D3 /* TTGScale.m */; };
-		CB97CE09177655BE003FC7D3 /* TTGShake.m in Sources */ = {isa = PBXBuildFile; fileRef = CB97CE08177655BE003FC7D3 /* TTGShake.m */; };
+		CB7818111984B9C80039A230 /* ZNavigationScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB7818101984B9C80039A230 /* ZNavigationScene.mm */; };
+		CB81F5B41A035A8B00AF2735 /* ZSequencer.m in Sources */ = {isa = PBXBuildFile; fileRef = CB81F5B31A035A8B00AF2735 /* ZSequencer.m */; };
+		CB8B403C178A166000F575F9 /* ZBatch.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B403B178A166000F575F9 /* ZBatch.m */; };
+		CB8B403F178A208E00F575F9 /* ZTrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B403E178A208E00F575F9 /* ZTrigger.m */; };
+		CB97CE061772E0DD003FC7D3 /* ZScale.m in Sources */ = {isa = PBXBuildFile; fileRef = CB97CE051772E0DD003FC7D3 /* ZScale.m */; };
+		CB97CE09177655BE003FC7D3 /* ZShake.m in Sources */ = {isa = PBXBuildFile; fileRef = CB97CE08177655BE003FC7D3 /* ZShake.m */; };
 		CBAA0797179B5E1E001902AF /* JBlock.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBAA0796179B5E1E001902AF /* JBlock.plist */; };
-		CBB5438D180B82EE002902B7 /* TTGDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB5438C180B82EE002902B7 /* TTGDeviceManager.m */; };
+		CBB5438D180B82EE002902B7 /* ZDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB5438C180B82EE002902B7 /* ZDeviceManager.m */; };
 		CBB54391180B856F002902B7 /* DemoCompositeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB54390180B856F002902B7 /* DemoCompositeScene.m */; };
 		CBB54395180B9E3C002902B7 /* DemoTextAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB54394180B9E3C002902B7 /* DemoTextAnimation.m */; };
 		CBB54398180BA25A002902B7 /* DemoBasicScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB54397180BA25A002902B7 /* DemoBasicScene.m */; };
@@ -42,9 +42,9 @@
 		CBB543BB1810F9D5002902B7 /* DemoSpriteAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB543BA1810F9D5002902B7 /* DemoSpriteAnimation.m */; };
 		CBB543BE1810FB5C002902B7 /* SceneSelectScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB543BD1810FB5C002902B7 /* SceneSelectScene.m */; };
 		CBB543C11810FC9C002902B7 /* ArrowSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB543C01810FC9C002902B7 /* ArrowSprite.m */; };
-		CBB64FFB180A6A48008CB091 /* TTGCompositeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB64FFA180A6A48008CB091 /* TTGCompositeScene.m */; };
-		CBBF495117A4E6AC002346DE /* TTGDestructor.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBF495017A4E6AC002346DE /* TTGDestructor.m */; };
-		CBD05D901776BBA400FC1907 /* TTGRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD05D8F1776BBA400FC1907 /* TTGRotate.m */; };
+		CBB64FFB180A6A48008CB091 /* ZCompositeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB64FFA180A6A48008CB091 /* ZCompositeScene.m */; };
+		CBBF495117A4E6AC002346DE /* ZDestructor.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBF495017A4E6AC002346DE /* ZDestructor.m */; };
+		CBD05D901776BBA400FC1907 /* ZRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD05D8F1776BBA400FC1907 /* ZRotate.m */; };
 		CBD1D9981797B5DD00905245 /* Box2DConfig.cmake in Resources */ = {isa = PBXBuildFile; fileRef = CBD1D9351797B5DD00905245 /* Box2DConfig.cmake */; };
 		CBD1D9991797B5DD00905245 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = CBD1D9361797B5DD00905245 /* CMakeLists.txt */; };
 		CBD1D99A1797B5DD00905245 /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD1D9381797B5DD00905245 /* b2BroadPhase.cpp */; };
@@ -92,20 +92,20 @@
 		CBD1D9C41797B5DD00905245 /* b2WeldJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD1D9911797B5DD00905245 /* b2WeldJoint.cpp */; };
 		CBD1D9C51797B5DD00905245 /* b2WheelJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD1D9931797B5DD00905245 /* b2WheelJoint.cpp */; };
 		CBD1D9C61797B5DD00905245 /* b2Rope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD1D9961797B5DD00905245 /* b2Rope.cpp */; };
-		CBD1D9C91797B77C00905245 /* TTGPhysicsManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD1D9C81797B77C00905245 /* TTGPhysicsManager.mm */; };
-		CBD1D9CC1797BD8900905245 /* TTGRigidbodyComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD1D9CB1797BD8900905245 /* TTGRigidbodyComponent.mm */; };
-		CBD1D9CF1797C97800905245 /* TTGComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD1D9CE1797C97700905245 /* TTGComponent.m */; };
+		CBD1D9C91797B77C00905245 /* ZPhysicsManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD1D9C81797B77C00905245 /* ZPhysicsManager.mm */; };
+		CBD1D9CC1797BD8900905245 /* ZRigidbodyComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD1D9CB1797BD8900905245 /* ZRigidbodyComponent.mm */; };
+		CBD1D9CF1797C97800905245 /* ZComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD1D9CE1797C97700905245 /* ZComponent.m */; };
 		CBD9C7A41AD3B94600DCEE24 /* laser.wav in Resources */ = {isa = PBXBuildFile; fileRef = CBD9C7A31AD3B94600DCEE24 /* laser.wav */; };
-		CBDAFD4E178FD345002525AA /* TTGSceneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDAFD4D178FD345002525AA /* TTGSceneManager.m */; };
-		CBDFC8C017837C9A00FBB5CE /* TTGFade.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDFC8BF17837C9A00FBB5CE /* TTGFade.m */; };
-		CBF43DEA198AA74300C96028 /* TTGBlink.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF43DE9198AA74300C96028 /* TTGBlink.m */; };
-		CBF49F6B198866B400F5CCCA /* TTGPlaySound.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF49F6A198866B400F5CCCA /* TTGPlaySound.m */; };
+		CBDAFD4E178FD345002525AA /* ZSceneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDAFD4D178FD345002525AA /* ZSceneManager.m */; };
+		CBDFC8C017837C9A00FBB5CE /* ZFade.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDFC8BF17837C9A00FBB5CE /* ZFade.m */; };
+		CBF43DEA198AA74300C96028 /* ZBlink.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF43DE9198AA74300C96028 /* ZBlink.m */; };
+		CBF49F6B198866B400F5CCCA /* ZPlaySound.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF49F6A198866B400F5CCCA /* ZPlaySound.m */; };
 		F125833217236CF1004DD463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F125833117236CF1004DD463 /* UIKit.framework */; };
 		F125833417236CF1004DD463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F125833317236CF1004DD463 /* Foundation.framework */; };
 		F125833617236CF1004DD463 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F125833517236CF1004DD463 /* CoreGraphics.framework */; };
 		F125833C17236CF1004DD463 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F125833A17236CF1004DD463 /* InfoPlist.strings */; };
 		F125833E17236CF1004DD463 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F125833D17236CF1004DD463 /* main.m */; };
-		F125834217236CF1004DD463 /* TTGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F125834117236CF1004DD463 /* TTGAppDelegate.m */; };
+		F125834217236CF1004DD463 /* ZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F125834117236CF1004DD463 /* ZAppDelegate.m */; };
 		F125834417236CF1004DD463 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F125834317236CF1004DD463 /* Default.png */; };
 		F125834617236CF1004DD463 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F125834517236CF1004DD463 /* Default@2x.png */; };
 		F125834817236CF1004DD463 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F125834717236CF1004DD463 /* Default-568h@2x.png */; };
@@ -113,8 +113,8 @@
 		F125835117236D7B004DD463 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F125835017236D7B004DD463 /* OpenGLES.framework */; };
 		F125835317236D81004DD463 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F125835217236D81004DD463 /* GLKit.framework */; };
 		F125835517236DF9004DD463 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F125835417236DF9004DD463 /* MainStoryboard.storyboard */; };
-		F125835B17239EA3004DD463 /* TTGViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F125835A17239EA3004DD463 /* TTGViewController.mm */; };
-		F12583661723B0AD004DD463 /* TTGSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = F12583651723B0AD004DD463 /* TTGSprite.mm */; };
+		F125835B17239EA3004DD463 /* ZViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F125835A17239EA3004DD463 /* ZViewController.mm */; };
+		F12583661723B0AD004DD463 /* ZSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = F12583651723B0AD004DD463 /* ZSprite.mm */; };
 		F12B2F5F176305EC005BD90B /* IBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = F12B2F57176305EC005BD90B /* IBlock.png */; };
 		F12B2F60176305EC005BD90B /* JBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = F12B2F58176305EC005BD90B /* JBlock.png */; };
 		F12B2F61176305EC005BD90B /* LBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = F12B2F59176305EC005BD90B /* LBlock.png */; };
@@ -123,26 +123,26 @@
 		F12B2F64176305EC005BD90B /* TBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = F12B2F5C176305EC005BD90B /* TBlock.png */; };
 		F12B2F65176305EC005BD90B /* TetrisBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F12B2F5D176305EC005BD90B /* TetrisBackground.png */; };
 		F12B2F66176305EC005BD90B /* ZBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = F12B2F5E176305EC005BD90B /* ZBlock.png */; };
-		F12B2F69176D739A005BD90B /* TTGAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F12B2F68176D739A005BD90B /* TTGAnimator.m */; };
-		F12B2F6C176D760F005BD90B /* TTGMoveTo.m in Sources */ = {isa = PBXBuildFile; fileRef = F12B2F6B176D760F005BD90B /* TTGMoveTo.m */; };
-		F15A7980172D03160036787A /* TTGTouchComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A797F172D03160036787A /* TTGTouchComponent.m */; };
-		F15A7983172D06340036787A /* TTGTouchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A7982172D06340036787A /* TTGTouchManager.m */; };
-		F15A7986172F76550036787A /* TTGSoundComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A7985172F76550036787A /* TTGSoundComponent.m */; };
+		F12B2F69176D739A005BD90B /* ZAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F12B2F68176D739A005BD90B /* ZAnimator.m */; };
+		F12B2F6C176D760F005BD90B /* ZMoveTo.m in Sources */ = {isa = PBXBuildFile; fileRef = F12B2F6B176D760F005BD90B /* ZMoveTo.m */; };
+		F15A7980172D03160036787A /* ZTouchComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A797F172D03160036787A /* ZTouchComponent.m */; };
+		F15A7983172D06340036787A /* ZTouchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A7982172D06340036787A /* ZTouchManager.m */; };
+		F15A7986172F76550036787A /* ZSoundComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A7985172F76550036787A /* ZSoundComponent.m */; };
 		F15A7989172F7F550036787A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15A7988172F7F550036787A /* AudioToolbox.framework */; };
 		F15A798B172F87B40036787A /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15A798A172F87B40036787A /* OpenAL.framework */; };
-		F15A7990172F97B90036787A /* TTGSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A798F172F97B80036787A /* TTGSoundManager.m */; };
-		F15A79B51737808A0036787A /* TTGText.mm in Sources */ = {isa = PBXBuildFile; fileRef = F15A79B4173780880036787A /* TTGText.mm */; };
+		F15A7990172F97B90036787A /* ZSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A798F172F97B80036787A /* ZSoundManager.m */; };
+		F15A79B51737808A0036787A /* ZText.mm in Sources */ = {isa = PBXBuildFile; fileRef = F15A79B4173780880036787A /* ZText.mm */; };
 		F15A79B8173CC79F0036787A /* TouchableText.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A79B7173CC79E0036787A /* TouchableText.m */; };
-		F15A79C21740A0F90036787A /* TTGTextureManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = F15A79C11740A0F70036787A /* TTGTextureManager.mm */; };
-		F1B29DBC17533D0C004F7DF3 /* TTGNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B29DBB17533D0B004F7DF3 /* TTGNode.m */; };
+		F15A79C21740A0F90036787A /* ZTextureManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = F15A79C11740A0F70036787A /* ZTextureManager.mm */; };
+		F1B29DBC17533D0C004F7DF3 /* ZNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B29DBB17533D0B004F7DF3 /* ZNode.m */; };
 		F1B29DBE175B10A7004F7DF3 /* LeftAnalog.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B29DBD175B10A7004F7DF3 /* LeftAnalog.png */; };
 		F1B29DC0175B12B9004F7DF3 /* LeftAnalogThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B29DBF175B12B9004F7DF3 /* LeftAnalogThumb.png */; };
-		F1B29DC3175B18B2004F7DF3 /* TTGVirtualStick.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B29DC2175B18B1004F7DF3 /* TTGVirtualStick.m */; };
+		F1B29DC3175B18B2004F7DF3 /* ZVirtualStick.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B29DC2175B18B1004F7DF3 /* ZVirtualStick.m */; };
 		F1B29DC5175C5A57004F7DF3 /* ButtonA.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B29DC4175C5A57004F7DF3 /* ButtonA.png */; };
 		F1B29DC8175C6060004F7DF3 /* MyJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B29DC7175C605F004F7DF3 /* MyJoystick.m */; };
-		F1EE39971728E6FD009965C9 /* TTGScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EE39961728E6FD009965C9 /* TTGScene.m */; };
-		F1FEF0271744A8BD00C39FC2 /* TTGSpriteAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEF0261744A8BC00C39FC2 /* TTGSpriteAnimation.m */; };
-		F1FEF03C1748A92B00C39FC2 /* TTGTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = F1FEF03B1748A92A00C39FC2 /* TTGTexture.mm */; };
+		F1EE39971728E6FD009965C9 /* ZScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EE39961728E6FD009965C9 /* ZScene.m */; };
+		F1FEF0271744A8BD00C39FC2 /* ZSpriteAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEF0261744A8BC00C39FC2 /* ZSpriteAnimation.m */; };
+		F1FEF03C1748A92B00C39FC2 /* ZTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = F1FEF03B1748A92A00C39FC2 /* ZTexture.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -169,31 +169,31 @@
 		CB22FC53181A12D40078F4BE /* LeftLeg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftLeg.png; sourceTree = "<group>"; };
 		CB22FC54181A12D40078F4BE /* RightArm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightArm.png; sourceTree = "<group>"; };
 		CB22FC55181A12D40078F4BE /* RightLeg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightLeg.png; sourceTree = "<group>"; };
-		CB291BC117B0C41C0042C69A /* TTGRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGRectangle.h; sourceTree = "<group>"; };
-		CB291BC217B0C41C0042C69A /* TTGRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGRectangle.m; sourceTree = "<group>"; };
+		CB291BC117B0C41C0042C69A /* ZRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRectangle.h; sourceTree = "<group>"; };
+		CB291BC217B0C41C0042C69A /* ZRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRectangle.m; sourceTree = "<group>"; };
 		CB332EAB1811082E00F8B015 /* Return.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Return.png; sourceTree = "<group>"; };
 		CB332EAD1811084B00F8B015 /* ReturnSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ReturnSprite.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		CB332EAE1811084C00F8B015 /* ReturnSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ReturnSprite.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		CB4D7BB217F009720087A300 /* TTGCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGCamera.h; sourceTree = "<group>"; };
-		CB4D7BB317F009730087A300 /* TTGCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGCamera.m; sourceTree = "<group>"; };
-		CB5003171973A45D00DCB05A /* TTGButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGButton.h; sourceTree = "<group>"; };
-		CB5003181973A45D00DCB05A /* TTGButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGButton.m; sourceTree = "<group>"; };
+		CB4D7BB217F009720087A300 /* ZCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCamera.h; sourceTree = "<group>"; };
+		CB4D7BB317F009730087A300 /* ZCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCamera.m; sourceTree = "<group>"; };
+		CB5003171973A45D00DCB05A /* ZButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZButton.h; sourceTree = "<group>"; };
+		CB5003181973A45D00DCB05A /* ZButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZButton.m; sourceTree = "<group>"; };
 		CB7278F318124492003C5320 /* rock.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = rock.plist; sourceTree = "<group>"; };
-		CB78180F1984B9C80039A230 /* TTGNavigationScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGNavigationScene.h; sourceTree = "<group>"; };
-		CB7818101984B9C80039A230 /* TTGNavigationScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TTGNavigationScene.mm; sourceTree = "<group>"; };
-		CB81F5B21A035A8B00AF2735 /* TTGSequencer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGSequencer.h; sourceTree = "<group>"; };
-		CB81F5B31A035A8B00AF2735 /* TTGSequencer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGSequencer.m; sourceTree = "<group>"; };
-		CB8B403A178A166000F575F9 /* TTGBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGBatch.h; sourceTree = "<group>"; };
-		CB8B403B178A166000F575F9 /* TTGBatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGBatch.m; sourceTree = "<group>"; };
-		CB8B403D178A208E00F575F9 /* TTGTrigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TTGTrigger.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		CB8B403E178A208E00F575F9 /* TTGTrigger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TTGTrigger.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		CB97CE041772E0DD003FC7D3 /* TTGScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGScale.h; sourceTree = "<group>"; };
-		CB97CE051772E0DD003FC7D3 /* TTGScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGScale.m; sourceTree = "<group>"; };
-		CB97CE07177655BE003FC7D3 /* TTGShake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TTGShake.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		CB97CE08177655BE003FC7D3 /* TTGShake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TTGShake.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CB78180F1984B9C80039A230 /* ZNavigationScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNavigationScene.h; sourceTree = "<group>"; };
+		CB7818101984B9C80039A230 /* ZNavigationScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZNavigationScene.mm; sourceTree = "<group>"; };
+		CB81F5B21A035A8B00AF2735 /* ZSequencer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSequencer.h; sourceTree = "<group>"; };
+		CB81F5B31A035A8B00AF2735 /* ZSequencer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSequencer.m; sourceTree = "<group>"; };
+		CB8B403A178A166000F575F9 /* ZBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBatch.h; sourceTree = "<group>"; };
+		CB8B403B178A166000F575F9 /* ZBatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBatch.m; sourceTree = "<group>"; };
+		CB8B403D178A208E00F575F9 /* ZTrigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ZTrigger.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		CB8B403E178A208E00F575F9 /* ZTrigger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ZTrigger.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CB97CE041772E0DD003FC7D3 /* ZScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZScale.h; sourceTree = "<group>"; };
+		CB97CE051772E0DD003FC7D3 /* ZScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZScale.m; sourceTree = "<group>"; };
+		CB97CE07177655BE003FC7D3 /* ZShake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ZShake.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		CB97CE08177655BE003FC7D3 /* ZShake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ZShake.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		CBAA0796179B5E1E001902AF /* JBlock.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JBlock.plist; sourceTree = "<group>"; };
-		CBB5438B180B82EE002902B7 /* TTGDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGDeviceManager.h; sourceTree = "<group>"; };
-		CBB5438C180B82EE002902B7 /* TTGDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGDeviceManager.m; sourceTree = "<group>"; };
+		CBB5438B180B82EE002902B7 /* ZDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDeviceManager.h; sourceTree = "<group>"; };
+		CBB5438C180B82EE002902B7 /* ZDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDeviceManager.m; sourceTree = "<group>"; };
 		CBB5438F180B856F002902B7 /* DemoCompositeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DemoCompositeScene.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		CBB54390180B856F002902B7 /* DemoCompositeScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DemoCompositeScene.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		CBB54393180B9E3C002902B7 /* DemoTextAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DemoTextAnimation.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -213,12 +213,12 @@
 		CBB543BD1810FB5C002902B7 /* SceneSelectScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneSelectScene.m; sourceTree = "<group>"; };
 		CBB543BF1810FC9C002902B7 /* ArrowSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ArrowSprite.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		CBB543C01810FC9C002902B7 /* ArrowSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ArrowSprite.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		CBB64FF9180A6A48008CB091 /* TTGCompositeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGCompositeScene.h; sourceTree = "<group>"; };
-		CBB64FFA180A6A48008CB091 /* TTGCompositeScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGCompositeScene.m; sourceTree = "<group>"; };
-		CBBF494F17A4E6AB002346DE /* TTGDestructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGDestructor.h; sourceTree = "<group>"; };
-		CBBF495017A4E6AC002346DE /* TTGDestructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGDestructor.m; sourceTree = "<group>"; };
-		CBD05D8E1776BBA400FC1907 /* TTGRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGRotate.h; sourceTree = "<group>"; };
-		CBD05D8F1776BBA400FC1907 /* TTGRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGRotate.m; sourceTree = "<group>"; };
+		CBB64FF9180A6A48008CB091 /* ZCompositeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCompositeScene.h; sourceTree = "<group>"; };
+		CBB64FFA180A6A48008CB091 /* ZCompositeScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCompositeScene.m; sourceTree = "<group>"; };
+		CBBF494F17A4E6AB002346DE /* ZDestructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDestructor.h; sourceTree = "<group>"; };
+		CBBF495017A4E6AC002346DE /* ZDestructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDestructor.m; sourceTree = "<group>"; };
+		CBD05D8E1776BBA400FC1907 /* ZRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRotate.h; sourceTree = "<group>"; };
+		CBD05D8F1776BBA400FC1907 /* ZRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRotate.m; sourceTree = "<group>"; };
 		CBD1D9341797B5DD00905245 /* Box2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2D.h; sourceTree = "<group>"; };
 		CBD1D9351797B5DD00905245 /* Box2DConfig.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Box2DConfig.cmake; sourceTree = "<group>"; };
 		CBD1D9361797B5DD00905245 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
@@ -312,21 +312,21 @@
 		CBD1D9941797B5DD00905245 /* b2WheelJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2WheelJoint.h; sourceTree = "<group>"; };
 		CBD1D9961797B5DD00905245 /* b2Rope.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Rope.cpp; sourceTree = "<group>"; };
 		CBD1D9971797B5DD00905245 /* b2Rope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Rope.h; sourceTree = "<group>"; };
-		CBD1D9C71797B77C00905245 /* TTGPhysicsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGPhysicsManager.h; sourceTree = "<group>"; };
-		CBD1D9C81797B77C00905245 /* TTGPhysicsManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TTGPhysicsManager.mm; sourceTree = "<group>"; };
-		CBD1D9CA1797BD8900905245 /* TTGRigidbodyComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGRigidbodyComponent.h; sourceTree = "<group>"; };
-		CBD1D9CB1797BD8900905245 /* TTGRigidbodyComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TTGRigidbodyComponent.mm; sourceTree = "<group>"; };
-		CBD1D9CD1797C97700905245 /* TTGComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGComponent.h; sourceTree = "<group>"; };
-		CBD1D9CE1797C97700905245 /* TTGComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGComponent.m; sourceTree = "<group>"; };
+		CBD1D9C71797B77C00905245 /* ZPhysicsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPhysicsManager.h; sourceTree = "<group>"; };
+		CBD1D9C81797B77C00905245 /* ZPhysicsManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZPhysicsManager.mm; sourceTree = "<group>"; };
+		CBD1D9CA1797BD8900905245 /* ZRigidbodyComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRigidbodyComponent.h; sourceTree = "<group>"; };
+		CBD1D9CB1797BD8900905245 /* ZRigidbodyComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZRigidbodyComponent.mm; sourceTree = "<group>"; };
+		CBD1D9CD1797C97700905245 /* ZComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZComponent.h; sourceTree = "<group>"; };
+		CBD1D9CE1797C97700905245 /* ZComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZComponent.m; sourceTree = "<group>"; };
 		CBD9C7A31AD3B94600DCEE24 /* laser.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = laser.wav; sourceTree = "<group>"; };
-		CBDAFD4C178FD345002525AA /* TTGSceneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGSceneManager.h; sourceTree = "<group>"; };
-		CBDAFD4D178FD345002525AA /* TTGSceneManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TTGSceneManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		CBDFC8BE17837C9900FBB5CE /* TTGFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGFade.h; sourceTree = "<group>"; };
-		CBDFC8BF17837C9A00FBB5CE /* TTGFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGFade.m; sourceTree = "<group>"; };
-		CBF43DE8198AA74300C96028 /* TTGBlink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGBlink.h; sourceTree = "<group>"; };
-		CBF43DE9198AA74300C96028 /* TTGBlink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGBlink.m; sourceTree = "<group>"; };
-		CBF49F69198866B400F5CCCA /* TTGPlaySound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGPlaySound.h; sourceTree = "<group>"; };
-		CBF49F6A198866B400F5CCCA /* TTGPlaySound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGPlaySound.m; sourceTree = "<group>"; };
+		CBDAFD4C178FD345002525AA /* ZSceneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSceneManager.h; sourceTree = "<group>"; };
+		CBDAFD4D178FD345002525AA /* ZSceneManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ZSceneManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CBDFC8BE17837C9900FBB5CE /* ZFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFade.h; sourceTree = "<group>"; };
+		CBDFC8BF17837C9A00FBB5CE /* ZFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFade.m; sourceTree = "<group>"; };
+		CBF43DE8198AA74300C96028 /* ZBlink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBlink.h; sourceTree = "<group>"; };
+		CBF43DE9198AA74300C96028 /* ZBlink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBlink.m; sourceTree = "<group>"; };
+		CBF49F69198866B400F5CCCA /* ZPlaySound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPlaySound.h; sourceTree = "<group>"; };
+		CBF49F6A198866B400F5CCCA /* ZPlaySound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPlaySound.m; sourceTree = "<group>"; };
 		F125832E17236CF1004DD463 /* Zen2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zen2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F125833117236CF1004DD463 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F125833317236CF1004DD463 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -335,8 +335,8 @@
 		F125833B17236CF1004DD463 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F125833D17236CF1004DD463 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		F125833F17236CF1004DD463 /* Zen2D-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zen2D-Prefix.pch"; sourceTree = "<group>"; };
-		F125834017236CF1004DD463 /* TTGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTGAppDelegate.h; sourceTree = "<group>"; };
-		F125834117236CF1004DD463 /* TTGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTGAppDelegate.m; sourceTree = "<group>"; };
+		F125834017236CF1004DD463 /* ZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAppDelegate.h; sourceTree = "<group>"; };
+		F125834117236CF1004DD463 /* ZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAppDelegate.m; sourceTree = "<group>"; };
 		F125834317236CF1004DD463 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F125834517236CF1004DD463 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F125834717236CF1004DD463 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -344,10 +344,10 @@
 		F125835017236D7B004DD463 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		F125835217236D81004DD463 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		F125835417236DF9004DD463 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F125835917239EA3004DD463 /* TTGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = TTGViewController.h; path = ../TTGViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		F125835A17239EA3004DD463 /* TTGViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = TTGViewController.mm; path = ../TTGViewController.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		F12583641723B0AD004DD463 /* TTGSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TTGSprite.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		F12583651723B0AD004DD463 /* TTGSprite.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = TTGSprite.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F125835917239EA3004DD463 /* ZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = ZViewController.h; path = ../ZViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F125835A17239EA3004DD463 /* ZViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = ZViewController.mm; path = ../ZViewController.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F12583641723B0AD004DD463 /* ZSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ZSprite.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F12583651723B0AD004DD463 /* ZSprite.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = ZSprite.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		F12B2F57176305EC005BD90B /* IBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IBlock.png; sourceTree = "<group>"; };
 		F12B2F58176305EC005BD90B /* JBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JBlock.png; sourceTree = "<group>"; };
 		F12B2F59176305EC005BD90B /* LBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LBlock.png; sourceTree = "<group>"; };
@@ -356,41 +356,41 @@
 		F12B2F5C176305EC005BD90B /* TBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TBlock.png; sourceTree = "<group>"; };
 		F12B2F5D176305EC005BD90B /* TetrisBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TetrisBackground.png; sourceTree = "<group>"; };
 		F12B2F5E176305EC005BD90B /* ZBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZBlock.png; sourceTree = "<group>"; };
-		F12B2F67176D739A005BD90B /* TTGAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGAnimator.h; sourceTree = "<group>"; };
-		F12B2F68176D739A005BD90B /* TTGAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGAnimator.m; sourceTree = "<group>"; };
-		F12B2F6A176D760F005BD90B /* TTGMoveTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGMoveTo.h; sourceTree = "<group>"; };
-		F12B2F6B176D760F005BD90B /* TTGMoveTo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGMoveTo.m; sourceTree = "<group>"; };
-		F15A797E172D03160036787A /* TTGTouchComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TTGTouchComponent.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		F15A797F172D03160036787A /* TTGTouchComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TTGTouchComponent.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		F15A7981172D06340036787A /* TTGTouchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TTGTouchManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		F15A7982172D06340036787A /* TTGTouchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TTGTouchManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		F15A7984172F76540036787A /* TTGSoundComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TTGSoundComponent.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		F15A7985172F76550036787A /* TTGSoundComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TTGSoundComponent.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F12B2F67176D739A005BD90B /* ZAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAnimator.h; sourceTree = "<group>"; };
+		F12B2F68176D739A005BD90B /* ZAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAnimator.m; sourceTree = "<group>"; };
+		F12B2F6A176D760F005BD90B /* ZMoveTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMoveTo.h; sourceTree = "<group>"; };
+		F12B2F6B176D760F005BD90B /* ZMoveTo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMoveTo.m; sourceTree = "<group>"; };
+		F15A797E172D03160036787A /* ZTouchComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ZTouchComponent.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F15A797F172D03160036787A /* ZTouchComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ZTouchComponent.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F15A7981172D06340036787A /* ZTouchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ZTouchManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F15A7982172D06340036787A /* ZTouchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ZTouchManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F15A7984172F76540036787A /* ZSoundComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ZSoundComponent.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F15A7985172F76550036787A /* ZSoundComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ZSoundComponent.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		F15A7988172F7F550036787A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		F15A798A172F87B40036787A /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
-		F15A798E172F97B80036787A /* TTGSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TTGSoundManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		F15A798F172F97B80036787A /* TTGSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TTGSoundManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		F15A79B3173780850036787A /* TTGText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TTGText.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		F15A79B4173780880036787A /* TTGText.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = TTGText.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F15A798E172F97B80036787A /* ZSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ZSoundManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F15A798F172F97B80036787A /* ZSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ZSoundManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F15A79B3173780850036787A /* ZText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ZText.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F15A79B4173780880036787A /* ZText.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = ZText.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		F15A79B6173CC79D0036787A /* TouchableText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchableText.h; sourceTree = "<group>"; };
 		F15A79B7173CC79E0036787A /* TouchableText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchableText.m; sourceTree = "<group>"; };
-		F15A79C01740A0F60036787A /* TTGTextureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TTGTextureManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		F15A79C11740A0F70036787A /* TTGTextureManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = TTGTextureManager.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		F1B29DBA17533D0A004F7DF3 /* TTGNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGNode.h; sourceTree = "<group>"; };
-		F1B29DBB17533D0B004F7DF3 /* TTGNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGNode.m; sourceTree = "<group>"; };
+		F15A79C01740A0F60036787A /* ZTextureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ZTextureManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F15A79C11740A0F70036787A /* ZTextureManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = ZTextureManager.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F1B29DBA17533D0A004F7DF3 /* ZNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNode.h; sourceTree = "<group>"; };
+		F1B29DBB17533D0B004F7DF3 /* ZNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNode.m; sourceTree = "<group>"; };
 		F1B29DBD175B10A7004F7DF3 /* LeftAnalog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftAnalog.png; sourceTree = "<group>"; };
 		F1B29DBF175B12B9004F7DF3 /* LeftAnalogThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftAnalogThumb.png; sourceTree = "<group>"; };
-		F1B29DC1175B18B0004F7DF3 /* TTGVirtualStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TTGVirtualStick.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		F1B29DC2175B18B1004F7DF3 /* TTGVirtualStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TTGVirtualStick.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F1B29DC1175B18B0004F7DF3 /* ZVirtualStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ZVirtualStick.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F1B29DC2175B18B1004F7DF3 /* ZVirtualStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ZVirtualStick.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		F1B29DC4175C5A57004F7DF3 /* ButtonA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonA.png; sourceTree = "<group>"; };
 		F1B29DC6175C605E004F7DF3 /* MyJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MyJoystick.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		F1B29DC7175C605F004F7DF3 /* MyJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MyJoystick.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		F1EE39951728E6FD009965C9 /* TTGScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGScene.h; sourceTree = "<group>"; };
-		F1EE39961728E6FD009965C9 /* TTGScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGScene.m; sourceTree = "<group>"; };
-		F1FEF0251744A8BC00C39FC2 /* TTGSpriteAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TTGSpriteAnimation.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		F1FEF0261744A8BC00C39FC2 /* TTGSpriteAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TTGSpriteAnimation.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		F1FEF03A1748A92900C39FC2 /* TTGTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TTGTexture.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		F1FEF03B1748A92A00C39FC2 /* TTGTexture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = TTGTexture.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F1EE39951728E6FD009965C9 /* ZScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZScene.h; sourceTree = "<group>"; };
+		F1EE39961728E6FD009965C9 /* ZScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZScene.m; sourceTree = "<group>"; };
+		F1FEF0251744A8BC00C39FC2 /* ZSpriteAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ZSpriteAnimation.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F1FEF0261744A8BC00C39FC2 /* ZSpriteAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ZSpriteAnimation.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F1FEF03A1748A92900C39FC2 /* ZTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ZTexture.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F1FEF03B1748A92A00C39FC2 /* ZTexture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = ZTexture.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -440,17 +440,26 @@
 			name = Tetris;
 			sourceTree = "<group>";
 		};
-		CB9483CC1996E37900D4CA40 /* TTGScenes */ = {
+		CB9483CC1996E37900D4CA40 /* ZScenes */ = {
 			isa = PBXGroup;
 			children = (
-				F1EE39951728E6FD009965C9 /* TTGScene.h */,
-				F1EE39961728E6FD009965C9 /* TTGScene.m */,
-				CBB64FF9180A6A48008CB091 /* TTGCompositeScene.h */,
-				CBB64FFA180A6A48008CB091 /* TTGCompositeScene.m */,
-				CB78180F1984B9C80039A230 /* TTGNavigationScene.h */,
-				CB7818101984B9C80039A230 /* TTGNavigationScene.mm */,
+				F1EE39951728E6FD009965C9 /* ZScene.h */,
+				F1EE39961728E6FD009965C9 /* ZScene.m */,
+				CBB64FF9180A6A48008CB091 /* ZCompositeScene.h */,
+				CBB64FFA180A6A48008CB091 /* ZCompositeScene.m */,
+				CB78180F1984B9C80039A230 /* ZNavigationScene.h */,
+				CB7818101984B9C80039A230 /* ZNavigationScene.mm */,
 			);
-			name = TTGScenes;
+			name = ZScenes;
+			sourceTree = "<group>";
+		};
+		CBB004B61AF5E27E00F3321F /* Unsorted */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEF03A1748A92900C39FC2 /* ZTexture.h */,
+				F1FEF03B1748A92A00C39FC2 /* ZTexture.mm */,
+			);
+			name = Unsorted;
 			sourceTree = "<group>";
 		};
 		CBB5438E180B84FF002902B7 /* Engine Demos */ = {
@@ -484,92 +493,92 @@
 			name = "Engine Demos";
 			sourceTree = "<group>";
 		};
-		CBD05D911776BDED00FC1907 /* TTGAnimations */ = {
+		CBD05D911776BDED00FC1907 /* ZAnimations */ = {
 			isa = PBXGroup;
 			children = (
-				F12B2F67176D739A005BD90B /* TTGAnimator.h */,
-				F12B2F68176D739A005BD90B /* TTGAnimator.m */,
-				CBF49F69198866B400F5CCCA /* TTGPlaySound.h */,
-				CBF49F6A198866B400F5CCCA /* TTGPlaySound.m */,
-				F12B2F6A176D760F005BD90B /* TTGMoveTo.h */,
-				F12B2F6B176D760F005BD90B /* TTGMoveTo.m */,
-				CB97CE041772E0DD003FC7D3 /* TTGScale.h */,
-				CB97CE051772E0DD003FC7D3 /* TTGScale.m */,
-				CB97CE07177655BE003FC7D3 /* TTGShake.h */,
-				CB97CE08177655BE003FC7D3 /* TTGShake.m */,
-				CBD05D8E1776BBA400FC1907 /* TTGRotate.h */,
-				CBD05D8F1776BBA400FC1907 /* TTGRotate.m */,
-				CBDFC8BE17837C9900FBB5CE /* TTGFade.h */,
-				CBDFC8BF17837C9A00FBB5CE /* TTGFade.m */,
-				CBF43DE8198AA74300C96028 /* TTGBlink.h */,
-				CBF43DE9198AA74300C96028 /* TTGBlink.m */,
-				CB8B403A178A166000F575F9 /* TTGBatch.h */,
-				CB8B403B178A166000F575F9 /* TTGBatch.m */,
-				CB81F5B21A035A8B00AF2735 /* TTGSequencer.h */,
-				CB81F5B31A035A8B00AF2735 /* TTGSequencer.m */,
-				CB8B403D178A208E00F575F9 /* TTGTrigger.h */,
-				CB8B403E178A208E00F575F9 /* TTGTrigger.m */,
-				CBBF494F17A4E6AB002346DE /* TTGDestructor.h */,
-				CBBF495017A4E6AC002346DE /* TTGDestructor.m */,
+				F12B2F67176D739A005BD90B /* ZAnimator.h */,
+				F12B2F68176D739A005BD90B /* ZAnimator.m */,
+				CBF49F69198866B400F5CCCA /* ZPlaySound.h */,
+				CBF49F6A198866B400F5CCCA /* ZPlaySound.m */,
+				F12B2F6A176D760F005BD90B /* ZMoveTo.h */,
+				F12B2F6B176D760F005BD90B /* ZMoveTo.m */,
+				CB97CE041772E0DD003FC7D3 /* ZScale.h */,
+				CB97CE051772E0DD003FC7D3 /* ZScale.m */,
+				CB97CE07177655BE003FC7D3 /* ZShake.h */,
+				CB97CE08177655BE003FC7D3 /* ZShake.m */,
+				CBD05D8E1776BBA400FC1907 /* ZRotate.h */,
+				CBD05D8F1776BBA400FC1907 /* ZRotate.m */,
+				CBDFC8BE17837C9900FBB5CE /* ZFade.h */,
+				CBDFC8BF17837C9A00FBB5CE /* ZFade.m */,
+				CBF43DE8198AA74300C96028 /* ZBlink.h */,
+				CBF43DE9198AA74300C96028 /* ZBlink.m */,
+				CB8B403A178A166000F575F9 /* ZBatch.h */,
+				CB8B403B178A166000F575F9 /* ZBatch.m */,
+				CB81F5B21A035A8B00AF2735 /* ZSequencer.h */,
+				CB81F5B31A035A8B00AF2735 /* ZSequencer.m */,
+				CB8B403D178A208E00F575F9 /* ZTrigger.h */,
+				CB8B403E178A208E00F575F9 /* ZTrigger.m */,
+				CBBF494F17A4E6AB002346DE /* ZDestructor.h */,
+				CBBF495017A4E6AC002346DE /* ZDestructor.m */,
 			);
-			name = TTGAnimations;
+			name = ZAnimations;
 			sourceTree = "<group>";
 		};
-		CBD05D921776BE1400FC1907 /* TTGManagers */ = {
+		CBD05D921776BE1400FC1907 /* ZManagers */ = {
 			isa = PBXGroup;
 			children = (
-				CBB5438B180B82EE002902B7 /* TTGDeviceManager.h */,
-				CBB5438C180B82EE002902B7 /* TTGDeviceManager.m */,
-				F15A7981172D06340036787A /* TTGTouchManager.h */,
-				F15A7982172D06340036787A /* TTGTouchManager.m */,
-				CBDAFD4C178FD345002525AA /* TTGSceneManager.h */,
-				CBDAFD4D178FD345002525AA /* TTGSceneManager.m */,
-				F15A798E172F97B80036787A /* TTGSoundManager.h */,
-				F15A798F172F97B80036787A /* TTGSoundManager.m */,
-				F15A79C01740A0F60036787A /* TTGTextureManager.h */,
-				F15A79C11740A0F70036787A /* TTGTextureManager.mm */,
-				CBD1D9C71797B77C00905245 /* TTGPhysicsManager.h */,
-				CBD1D9C81797B77C00905245 /* TTGPhysicsManager.mm */,
+				CBB5438B180B82EE002902B7 /* ZDeviceManager.h */,
+				CBB5438C180B82EE002902B7 /* ZDeviceManager.m */,
+				F15A7981172D06340036787A /* ZTouchManager.h */,
+				F15A7982172D06340036787A /* ZTouchManager.m */,
+				CBDAFD4C178FD345002525AA /* ZSceneManager.h */,
+				CBDAFD4D178FD345002525AA /* ZSceneManager.m */,
+				F15A798E172F97B80036787A /* ZSoundManager.h */,
+				F15A798F172F97B80036787A /* ZSoundManager.m */,
+				F15A79C01740A0F60036787A /* ZTextureManager.h */,
+				F15A79C11740A0F70036787A /* ZTextureManager.mm */,
+				CBD1D9C71797B77C00905245 /* ZPhysicsManager.h */,
+				CBD1D9C81797B77C00905245 /* ZPhysicsManager.mm */,
 			);
-			name = TTGManagers;
+			name = ZManagers;
 			sourceTree = "<group>";
 		};
-		CBD05D931776BE2900FC1907 /* TTGNodes */ = {
+		CBD05D931776BE2900FC1907 /* ZNodes */ = {
 			isa = PBXGroup;
 			children = (
-				F15A79B3173780850036787A /* TTGText.h */,
-				F15A79B4173780880036787A /* TTGText.mm */,
-				F1B29DBA17533D0A004F7DF3 /* TTGNode.h */,
-				F1B29DBB17533D0B004F7DF3 /* TTGNode.m */,
-				CB4D7BB217F009720087A300 /* TTGCamera.h */,
-				CB4D7BB317F009730087A300 /* TTGCamera.m */,
-				F12583641723B0AD004DD463 /* TTGSprite.h */,
-				F12583651723B0AD004DD463 /* TTGSprite.mm */,
-				CB5003171973A45D00DCB05A /* TTGButton.h */,
-				CB5003181973A45D00DCB05A /* TTGButton.m */,
-				CB291BC117B0C41C0042C69A /* TTGRectangle.h */,
-				CB291BC217B0C41C0042C69A /* TTGRectangle.m */,
-				F1FEF0251744A8BC00C39FC2 /* TTGSpriteAnimation.h */,
-				F1FEF0261744A8BC00C39FC2 /* TTGSpriteAnimation.m */,
-				F1B29DC1175B18B0004F7DF3 /* TTGVirtualStick.h */,
-				F1B29DC2175B18B1004F7DF3 /* TTGVirtualStick.m */,
+				F15A79B3173780850036787A /* ZText.h */,
+				F15A79B4173780880036787A /* ZText.mm */,
+				F1B29DBA17533D0A004F7DF3 /* ZNode.h */,
+				F1B29DBB17533D0B004F7DF3 /* ZNode.m */,
+				CB4D7BB217F009720087A300 /* ZCamera.h */,
+				CB4D7BB317F009730087A300 /* ZCamera.m */,
+				F12583641723B0AD004DD463 /* ZSprite.h */,
+				F12583651723B0AD004DD463 /* ZSprite.mm */,
+				CB5003171973A45D00DCB05A /* ZButton.h */,
+				CB5003181973A45D00DCB05A /* ZButton.m */,
+				CB291BC117B0C41C0042C69A /* ZRectangle.h */,
+				CB291BC217B0C41C0042C69A /* ZRectangle.m */,
+				F1FEF0251744A8BC00C39FC2 /* ZSpriteAnimation.h */,
+				F1FEF0261744A8BC00C39FC2 /* ZSpriteAnimation.m */,
+				F1B29DC1175B18B0004F7DF3 /* ZVirtualStick.h */,
+				F1B29DC2175B18B1004F7DF3 /* ZVirtualStick.m */,
 			);
-			name = TTGNodes;
+			name = ZNodes;
 			sourceTree = "<group>";
 		};
-		CBD05D941776BE5100FC1907 /* TTGComponents */ = {
+		CBD05D941776BE5100FC1907 /* ZComponents */ = {
 			isa = PBXGroup;
 			children = (
-				CBD1D9CD1797C97700905245 /* TTGComponent.h */,
-				CBD1D9CE1797C97700905245 /* TTGComponent.m */,
-				F15A797E172D03160036787A /* TTGTouchComponent.h */,
-				F15A797F172D03160036787A /* TTGTouchComponent.m */,
-				F15A7984172F76540036787A /* TTGSoundComponent.h */,
-				F15A7985172F76550036787A /* TTGSoundComponent.m */,
-				CBD1D9CA1797BD8900905245 /* TTGRigidbodyComponent.h */,
-				CBD1D9CB1797BD8900905245 /* TTGRigidbodyComponent.mm */,
+				CBD1D9CD1797C97700905245 /* ZComponent.h */,
+				CBD1D9CE1797C97700905245 /* ZComponent.m */,
+				F15A797E172D03160036787A /* ZTouchComponent.h */,
+				F15A797F172D03160036787A /* ZTouchComponent.m */,
+				F15A7984172F76540036787A /* ZSoundComponent.h */,
+				F15A7985172F76550036787A /* ZSoundComponent.m */,
+				CBD1D9CA1797BD8900905245 /* ZRigidbodyComponent.h */,
+				CBD1D9CB1797BD8900905245 /* ZRigidbodyComponent.mm */,
 			);
-			name = TTGComponents;
+			name = ZComponents;
 			sourceTree = "<group>";
 		};
 		CBD1D9331797B5DD00905245 /* Box2D */ = {
@@ -794,17 +803,16 @@
 			isa = PBXGroup;
 			children = (
 				F125835417236DF9004DD463 /* MainStoryboard.storyboard */,
-				F125835917239EA3004DD463 /* TTGViewController.h */,
-				F125835A17239EA3004DD463 /* TTGViewController.mm */,
-				F125834017236CF1004DD463 /* TTGAppDelegate.h */,
-				F125834117236CF1004DD463 /* TTGAppDelegate.m */,
-				F1FEF03A1748A92900C39FC2 /* TTGTexture.h */,
-				F1FEF03B1748A92A00C39FC2 /* TTGTexture.mm */,
-				CB9483CC1996E37900D4CA40 /* TTGScenes */,
-				CBD05D921776BE1400FC1907 /* TTGManagers */,
-				CBD05D931776BE2900FC1907 /* TTGNodes */,
-				CBD05D911776BDED00FC1907 /* TTGAnimations */,
-				CBD05D941776BE5100FC1907 /* TTGComponents */,
+				F125835917239EA3004DD463 /* ZViewController.h */,
+				F125835A17239EA3004DD463 /* ZViewController.mm */,
+				F125834017236CF1004DD463 /* ZAppDelegate.h */,
+				F125834117236CF1004DD463 /* ZAppDelegate.m */,
+				CB9483CC1996E37900D4CA40 /* ZScenes */,
+				CBD05D921776BE1400FC1907 /* ZManagers */,
+				CBD05D931776BE2900FC1907 /* ZNodes */,
+				CBD05D911776BDED00FC1907 /* ZAnimations */,
+				CBD05D941776BE5100FC1907 /* ZComponents */,
+				CBB004B61AF5E27E00F3321F /* Unsorted */,
 				CBB5438E180B84FF002902B7 /* Engine Demos */,
 				F125835C1723B030004DD463 /* Resources */,
 				F125833817236CF1004DD463 /* Supporting Files */,
@@ -958,57 +966,57 @@
 				CB332EAF1811084C00F8B015 /* ReturnSprite.m in Sources */,
 				CBB5439E180E2807002902B7 /* PhysicsTouchNode.m in Sources */,
 				F125833E17236CF1004DD463 /* main.m in Sources */,
-				F125834217236CF1004DD463 /* TTGAppDelegate.m in Sources */,
-				F125835B17239EA3004DD463 /* TTGViewController.mm in Sources */,
-				F12583661723B0AD004DD463 /* TTGSprite.mm in Sources */,
-				F1EE39971728E6FD009965C9 /* TTGScene.m in Sources */,
-				F15A7980172D03160036787A /* TTGTouchComponent.m in Sources */,
-				F15A7983172D06340036787A /* TTGTouchManager.m in Sources */,
-				F15A7986172F76550036787A /* TTGSoundComponent.m in Sources */,
+				F125834217236CF1004DD463 /* ZAppDelegate.m in Sources */,
+				F125835B17239EA3004DD463 /* ZViewController.mm in Sources */,
+				F12583661723B0AD004DD463 /* ZSprite.mm in Sources */,
+				F1EE39971728E6FD009965C9 /* ZScene.m in Sources */,
+				F15A7980172D03160036787A /* ZTouchComponent.m in Sources */,
+				F15A7983172D06340036787A /* ZTouchManager.m in Sources */,
+				F15A7986172F76550036787A /* ZSoundComponent.m in Sources */,
 				CBB543BE1810FB5C002902B7 /* SceneSelectScene.m in Sources */,
-				F15A7990172F97B90036787A /* TTGSoundManager.m in Sources */,
-				F15A79B51737808A0036787A /* TTGText.mm in Sources */,
+				F15A7990172F97B90036787A /* ZSoundManager.m in Sources */,
+				F15A79B51737808A0036787A /* ZText.mm in Sources */,
 				F15A79B8173CC79F0036787A /* TouchableText.m in Sources */,
-				F15A79C21740A0F90036787A /* TTGTextureManager.mm in Sources */,
-				F1FEF0271744A8BD00C39FC2 /* TTGSpriteAnimation.m in Sources */,
-				F1FEF03C1748A92B00C39FC2 /* TTGTexture.mm in Sources */,
-				F1B29DBC17533D0C004F7DF3 /* TTGNode.m in Sources */,
+				F15A79C21740A0F90036787A /* ZTextureManager.mm in Sources */,
+				F1FEF0271744A8BD00C39FC2 /* ZSpriteAnimation.m in Sources */,
+				F1FEF03C1748A92B00C39FC2 /* ZTexture.mm in Sources */,
+				F1B29DBC17533D0C004F7DF3 /* ZNode.m in Sources */,
 				CBB54391180B856F002902B7 /* DemoCompositeScene.m in Sources */,
 				CBB54398180BA25A002902B7 /* DemoBasicScene.m in Sources */,
-				F1B29DC3175B18B2004F7DF3 /* TTGVirtualStick.m in Sources */,
+				F1B29DC3175B18B2004F7DF3 /* ZVirtualStick.m in Sources */,
 				CBB543C11810FC9C002902B7 /* ArrowSprite.m in Sources */,
 				F1B29DC8175C6060004F7DF3 /* MyJoystick.m in Sources */,
-				F12B2F69176D739A005BD90B /* TTGAnimator.m in Sources */,
-				F12B2F6C176D760F005BD90B /* TTGMoveTo.m in Sources */,
-				CB97CE061772E0DD003FC7D3 /* TTGScale.m in Sources */,
-				CB97CE09177655BE003FC7D3 /* TTGShake.m in Sources */,
+				F12B2F69176D739A005BD90B /* ZAnimator.m in Sources */,
+				F12B2F6C176D760F005BD90B /* ZMoveTo.m in Sources */,
+				CB97CE061772E0DD003FC7D3 /* ZScale.m in Sources */,
+				CB97CE09177655BE003FC7D3 /* ZShake.m in Sources */,
 				CBB543BB1810F9D5002902B7 /* DemoSpriteAnimation.m in Sources */,
-				CBD05D901776BBA400FC1907 /* TTGRotate.m in Sources */,
-				CBDFC8C017837C9A00FBB5CE /* TTGFade.m in Sources */,
-				CB8B403C178A166000F575F9 /* TTGBatch.m in Sources */,
-				CB8B403F178A208E00F575F9 /* TTGTrigger.m in Sources */,
-				CBDAFD4E178FD345002525AA /* TTGSceneManager.m in Sources */,
+				CBD05D901776BBA400FC1907 /* ZRotate.m in Sources */,
+				CBDFC8C017837C9A00FBB5CE /* ZFade.m in Sources */,
+				CB8B403C178A166000F575F9 /* ZBatch.m in Sources */,
+				CB8B403F178A208E00F575F9 /* ZTrigger.m in Sources */,
+				CBDAFD4E178FD345002525AA /* ZSceneManager.m in Sources */,
 				CBB5439B180DD4D4002902B7 /* DemoPhysicsScene.mm in Sources */,
 				CBD1D99A1797B5DD00905245 /* b2BroadPhase.cpp in Sources */,
 				CBD1D99B1797B5DD00905245 /* b2CollideCircle.cpp in Sources */,
-				CBB5438D180B82EE002902B7 /* TTGDeviceManager.m in Sources */,
+				CBB5438D180B82EE002902B7 /* ZDeviceManager.m in Sources */,
 				CBD1D99C1797B5DD00905245 /* b2CollideEdge.cpp in Sources */,
 				CBD1D99D1797B5DD00905245 /* b2CollidePolygon.cpp in Sources */,
-				CBB64FFB180A6A48008CB091 /* TTGCompositeScene.m in Sources */,
+				CBB64FFB180A6A48008CB091 /* ZCompositeScene.m in Sources */,
 				CBD1D99E1797B5DD00905245 /* b2Collision.cpp in Sources */,
 				CBD1D99F1797B5DD00905245 /* b2Distance.cpp in Sources */,
 				CBD1D9A01797B5DD00905245 /* b2DynamicTree.cpp in Sources */,
 				CBD1D9A11797B5DD00905245 /* b2TimeOfImpact.cpp in Sources */,
 				CBD1D9A21797B5DD00905245 /* b2ChainShape.cpp in Sources */,
-				CBF49F6B198866B400F5CCCA /* TTGPlaySound.m in Sources */,
+				CBF49F6B198866B400F5CCCA /* ZPlaySound.m in Sources */,
 				CBD1D9A31797B5DD00905245 /* b2CircleShape.cpp in Sources */,
 				CBB543B61810F7DF002902B7 /* DemoTetris.m in Sources */,
-				CB7818111984B9C80039A230 /* TTGNavigationScene.mm in Sources */,
+				CB7818111984B9C80039A230 /* ZNavigationScene.mm in Sources */,
 				CBD1D9A41797B5DD00905245 /* b2EdgeShape.cpp in Sources */,
 				CBD1D9A51797B5DD00905245 /* b2PolygonShape.cpp in Sources */,
 				CBD1D9A61797B5DD00905245 /* b2BlockAllocator.cpp in Sources */,
 				CBD1D9A71797B5DD00905245 /* b2Draw.cpp in Sources */,
-				CBF43DEA198AA74300C96028 /* TTGBlink.m in Sources */,
+				CBF43DEA198AA74300C96028 /* ZBlink.m in Sources */,
 				CBD1D9A81797B5DD00905245 /* b2Math.cpp in Sources */,
 				CBD1D9A91797B5DD00905245 /* b2Settings.cpp in Sources */,
 				CBD1D9AA1797B5DD00905245 /* b2StackAllocator.cpp in Sources */,
@@ -1038,17 +1046,17 @@
 				CBD1D9C21797B5DD00905245 /* b2RevoluteJoint.cpp in Sources */,
 				CBD1D9C31797B5DD00905245 /* b2RopeJoint.cpp in Sources */,
 				CBD1D9C41797B5DD00905245 /* b2WeldJoint.cpp in Sources */,
-				CB81F5B41A035A8B00AF2735 /* TTGSequencer.m in Sources */,
-				CB5003191973A45D00DCB05A /* TTGButton.m in Sources */,
+				CB81F5B41A035A8B00AF2735 /* ZSequencer.m in Sources */,
+				CB5003191973A45D00DCB05A /* ZButton.m in Sources */,
 				CBD1D9C51797B5DD00905245 /* b2WheelJoint.cpp in Sources */,
 				CBD1D9C61797B5DD00905245 /* b2Rope.cpp in Sources */,
-				CBD1D9C91797B77C00905245 /* TTGPhysicsManager.mm in Sources */,
-				CBD1D9CC1797BD8900905245 /* TTGRigidbodyComponent.mm in Sources */,
-				CBD1D9CF1797C97800905245 /* TTGComponent.m in Sources */,
-				CBBF495117A4E6AC002346DE /* TTGDestructor.m in Sources */,
+				CBD1D9C91797B77C00905245 /* ZPhysicsManager.mm in Sources */,
+				CBD1D9CC1797BD8900905245 /* ZRigidbodyComponent.mm in Sources */,
+				CBD1D9CF1797C97800905245 /* ZComponent.m in Sources */,
+				CBBF495117A4E6AC002346DE /* ZDestructor.m in Sources */,
 				CBB54395180B9E3C002902B7 /* DemoTextAnimation.m in Sources */,
-				CB291BC317B0C41C0042C69A /* TTGRectangle.m in Sources */,
-				CB4D7BB417F009730087A300 /* TTGCamera.m in Sources */,
+				CB291BC317B0C41C0042C69A /* ZRectangle.m in Sources */,
+				CB4D7BB417F009730087A300 /* ZCamera.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

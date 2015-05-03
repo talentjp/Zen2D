@@ -7,20 +7,20 @@
 //
 
 #import "DemoTetris.h"
-#import "TTGDeviceManager.h"
-#import "TTGSprite.h"
+#import "ZDeviceManager.h"
+#import "ZSprite.h"
 #import "MyJoystick.h"
 #import "ReturnSprite.h"
 
 @implementation DemoTetris
 - (id)init
 {
-    float width = [[TTGDeviceManager sharedManager] getScreenWidth];
-    float height = [[TTGDeviceManager sharedManager] getScreenHeight];;
+    float width = [[ZDeviceManager sharedManager] getScreenWidth];
+    float height = [[ZDeviceManager sharedManager] getScreenHeight];;
     
     if((self = [super initWithWidth:width Height:height]))
     {
-        TTGSprite* bgImage = [[TTGSprite alloc] initWithFile:@"TetrisBackground.png"];
+        ZSprite* bgImage = [[ZSprite alloc] initWithFile:@"TetrisBackground.png"];
         [self attachNode:bgImage];
         bgImage.spriteDepth = 100;
         bgImage.spritePosition = CGPointMake(240, 160);

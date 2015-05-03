@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Roger Cheng. All rights reserved.
 //
 
-#import "TTGVirtualStick.h"
-@class TTGSprite;
+#import "ZVirtualStick.h"
+@class ZSprite;
 
 typedef enum{
     NOBLOCK_ENUM = 0,
@@ -20,16 +20,16 @@ typedef enum{
     ZBLOCK_ENUM = 7
 }TetrisBlockName;
 
-@interface MyJoystick : TTGVirtualStick
+@interface MyJoystick : ZVirtualStick
 {
     TetrisBlockName tetrisArray[20][10];
-    TTGSprite* tetrisArrayIBlockPtr[20][10];
-    TTGSprite* tetrisArrayJBlockPtr[20][10];
-    TTGSprite* tetrisArrayLBlockPtr[20][10];
-    TTGSprite* tetrisArrayOBlockPtr[20][10];
-    TTGSprite* tetrisArraySBlockPtr[20][10];
-    TTGSprite* tetrisArrayTBlockPtr[20][10];
-    TTGSprite* tetrisArrayZBlockPtr[20][10];
+    ZSprite* tetrisArrayIBlockPtr[20][10];
+    ZSprite* tetrisArrayJBlockPtr[20][10];
+    ZSprite* tetrisArrayLBlockPtr[20][10];
+    ZSprite* tetrisArrayOBlockPtr[20][10];
+    ZSprite* tetrisArraySBlockPtr[20][10];
+    ZSprite* tetrisArrayTBlockPtr[20][10];
+    ZSprite* tetrisArrayZBlockPtr[20][10];
     int _numOrientationsArray[8];
     TetrisBlockName _currentPiece;
     int _currentRotation;
