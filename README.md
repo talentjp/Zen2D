@@ -5,7 +5,7 @@ This project was started in 2013 April in an attempt to replace Unity3D and Coco
 ### How to use
 Simply clone the project and run the demos, which should scale well on all iPhone devices (demos were built for iPhone only)
 # Basics
-### 1.Scene management
+### 1. Scene management
 ```objective-c
 [[ZSceneManager sharedManager] switchToScene:[[ZScene alloc] init]];
 ```
@@ -35,7 +35,7 @@ To set the active camera, use the activeCamera property like so:
 ```objective-c
 scene.activeCamera = camera;
 ```
-### 2.ZNode
+### 2. ZNode
 The ZNode class is the foundation for all objects that can be attached to a scene.
 ```objective-c
 //To attach a node to a scene
@@ -163,4 +163,43 @@ An experimental virtual joystick class (will be more customizable in the future)
 - (void) leftAnalogDown;
 - (void) leftAnalogUp;
 - (void) leftAnalogMoved;
+```
+### 3. ZAnimator
+When we know beforehand how a ZNode object is animated over time we can apply ZAnimators to it.
+#### ZMoveTo
+This moves the node over 2 secs from (-100, 0) to (0,0)
+```objective-c
+node.spritePosition = CGPointMake(-100, 0);
+[node addAnimator:[ZMoveTo moveToX:0 Y:0 During:2]];
+```
+#### ZScale
+This scales the node over 2 secs from (1.0, 1.0) ratio to (2.0, 1.0) ratio (horizontal stretch)
+```objective-c
+[node addAnimator:[ZScale scaleToWidth:2.0 Height:1.0 During:2.0]];
+```
+#### ZRotate
+This rotates the node over 2 secs 90 degress counter-clockwise
+```objective-c
+[node addAnimator:[ZRotate rotateBy:90 During:2]];
+```
+#### ZFade
+This fades the node out over 2 secs from starting opacity to 0 opacity
+```objective-c
+[node addAnimator:[ZFade fadeOutDuring:2]]
+```
+This fades the node out over 2 secs from starting opacity to 1.0 opacity
+```objective-c
+[node addAnimator:[ZFadeIn fadeOutDuring:2]]
+```
+#### ZBlink
+This makes the node twinkle over 4 secs with 1 secs cycle time (zero -> full -> zero opacity)
+```objective-c
+[node addAnimator:[ZBlink blinkDuring:4 WithCycle:1]];
+```
+#### ZBatch
+Batch executes all animators at the same time
+```objective-c
+//From demo code
+ZBatch* leftArmSequence = [ZBatch executeAnimators:[ZRotate rotateBy:-30 During:2], [ZTrigger triggerAnimator:[ZRotate rotateBy:30 During:2] After:2], nil];
+[girlLeftArm addAnimator:leftArmSequence];
 ```
