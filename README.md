@@ -101,4 +101,66 @@ colorRect.spriteSize = CGSizeMake(2000, 20);
 colorRect.opacity = 0.5;
 colorRect.solidColor = [UIColor purpleColor];
 ```
+#### ZSpriteAnimation
+A sprite animation is a series of sprites played in a particular sequence. In Zen2D even though one can still load individual sprites from different image files, the use of a sprite sheet is highly recommended.
+```objective-c
+[[ZTextureManager sharedManager] loadJSONSpriteSheet:@"megaman3d.json"];
+```
+This helper method parses JSON metadata and loads the sprite images into memory. The JSON takes the format:
+```json
+{"frames": [
 
+{
+	"filename": "Megaman00.gif",
+	"frame": {"x":2,"y":2,"w":320,"h":240},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":320,"h":240},
+	"sourceSize": {"w":320,"h":240}
+},
+{
+	"filename": "Megaman01.gif",
+	"frame": {"x":324,"y":2,"w":320,"h":240},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":320,"h":240},
+	"sourceSize": {"w":320,"h":240}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "megaman3d.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:05a6532bbb60b81a50517affd3cb927b:1/1$"
+}}
+```
+However it's also recommended that one uses [TexturePacker](https://www.codeandweb.com/texturepacker) for the spritesheet generation (image + json), while there is no official tool yet.
+After loading the spritesheet successfully into memory, one can start composing the animations.
+```objective-c
+ZSpriteAnimation* megaman = [[ZSpriteAnimation alloc] init];
+NSMutableArray* arrayMegaman = [NSMutableArray array];
+for(int i = 0; i <= 10;i++)
+{
+  [arrayMegaman addObject:[NSString stringWithFormat:@"Megaman%02d.gif",i]];
+}
+[megaman loadSpritesFromArrayOfFiles:arrayMegaman];
+```
+And to define the animations.
+```objective-c
+//Use all the sprites
+[megaman defineAnimationNamed:@"megaman_FULL" OfDuration:1.5 AsSpriteIndices:0,1,2,3,4,5,6,7,8,9,10,nil];
+```
+To play a defined animation.
+```objective-c
+[megaman playAnimation:@"megaman_FULL" Looped:YES];
+```
+#### ZVirtualStick
+An experimental virtual joystick class (will be more customizable in the future), to process the events, override the 4 existing methods.
+```objective-c
+- (void) buttonAPressed;
+- (void) leftAnalogDown;
+- (void) leftAnalogUp;
+- (void) leftAnalogMoved;
+```
