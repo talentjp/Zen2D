@@ -222,3 +222,82 @@ A specialized animator that kills the node, can be used with trigger(timed death
 ```
 #### ZPlaySound
 Sound playback animator that can be scheduled.
+
+### 4. Components
+By attaching a component to the node, it gives the node a new capability.
+#### ZTouchComponent
+This gives the node ability to receive touch events
+```objective-c
+- (id)init
+{
+    if((self = [super init]))
+    {
+        //Component based design
+        _touchComp = [[ZTouchComponent alloc] init];
+        [self addComponent: _touchComp];
+        //If absorb touch is on nothing behind it will receive any touch event
+        _touchComp.isAbsorbTouch = NO;
+    }
+    return self;
+}
+```
+All touch events should be processed inside the game loop, which makes it a lot more usable than Apple's stock asynchronous API (touchBegan and the likes)
+```objective-c
+//From the demo
+- (void)gameUpdate
+{
+    if([_touchComp getLatestTouchEventAtIndex:0] == TOUCH_EVENT_DOWN)
+    {
+        ZNode* nodeToCopy = [self.parentScene findNodeByIdentifier:@"ROCK"];
+        ZNode* newNode = [nodeToCopy copy];
+        CGPoint newLocation = [_touchComp getLatestLocationAtIndex:0];
+        [newNode moveToX:newLocation.x Y:newLocation.y];
+        [newNode resetComponents];
+        [self.parentScene attachNode:newNode];
+    }
+}
+```
+The above code querys the touch event at index 0 (MAX 19). In total, there are 5 types of touch events:
+##### TOUCH_EVENT_NONE - Nothing happened at this index
+##### TOUCH_EVENT_DOWN - Finger laid 
+##### TOUCH_EVENT_MOVE - Finger dragged
+##### TOUCH_EVENT_UP - Finger lifted
+##### TOUCH_EVENT_DOWN_UP - User did a very quick tap on the display
+#### ZSoundComponent
+A node can also contain a sound component, currently only wav file is supported, which will be converted to caf on compilation.
+```objective-c
+- (id)init
+{
+    if((self = [super init]))
+    {
+        //Component based design
+        _soundComp = [[ZSoundComponent alloc] init];
+        [_soundComp loadFile:@"laser.wav"];
+        [self addComponent: _soundComp];
+    }
+    return self;
+}
+```
+To play:
+```objective-c
+[_soundComp play];
+```
+#### ZRigidbodyComponent
+There are different ways to infer the shape data, first by using a plist, which has all the vertices.
+```objective-c
+ZSprite* rock = [[ZSprite alloc] initWithFile:@"rock.png"];
+ZRigidbodyComponent* comp = [[ZRigidbodyComponent alloc] init];
+[rock addComponent:comp];
+[comp loadFixtureDataFromFile:@"rock.plist"];
+```
+Or let the the spriteSize imply the dimensions
+```objective-c
+ZRectangle* colorRect = [[ZRectangle alloc] init];
+colorRect.spriteSize = CGSizeMake(2000, 20);
+comp = [[ZRigidbodyComponent alloc] init];
+[colorRect addComponent:comp];
+[comp setupAsBoxWithInferredDimensions];
+//Immovable body
+[comp setAsStaticBody];   
+```
+There is also **setupAsCircleWithInferredRadius**
