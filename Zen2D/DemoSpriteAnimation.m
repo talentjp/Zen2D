@@ -35,7 +35,6 @@
         megaman.spritePosition = CGPointMake(250,150);
         megaman.scale = CGSizeMake(1, 1);
         megaman.spriteDepth = -100;
-        NSLog(@"Sprite depth = %f", megaman.spriteDepth);
         [self attachNode:megaman];
         [self attachNode:[[ReturnSprite alloc] init]];
     }

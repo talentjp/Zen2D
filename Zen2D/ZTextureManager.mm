@@ -139,9 +139,6 @@ static ZTextureManager* singleton = nil;
         
         [_dictTextures setObject:newTexture forKey:filename];
         //Save the alpha info to texture object
-
-        
-        NSLog(@"image size (%f,%f)", image.size.width, image.size.height);
         for(int i = 0; i < image.size.width * image.size.height; i++ )
         {
             [newTexture addAlphaValue:data[i * 4 + 3]];

@@ -99,7 +99,6 @@
     va_end(argumentList);
     
     [_dictAnimations setObject:newArray forKey:name];
-    NSLog(@"The Animation Dictionary : %@", _dictAnimations);
 }
 
 
